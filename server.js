@@ -8,15 +8,9 @@ const parser = new Parser();
 app.use(cors());
 
 const rssFeeds = [
-  'https://paris-supporters.fr/feed',
-  'https://madeinparisiens.ouest-france.fr/flux/rss_news.php',
-  'https://www.culturepsg.com/news?rss',
   'https://www.foot01.com/equipe/paris/news.rss',
-  'https://www.paristeam.fr/feed',
-  'https://psgcommunity.com/feed/',
-  'https://canal-supporters.com/feed/',
-  'https://allezparis.fr/feed',
-  'https://dwh.lequipe.fr/api/edito/rss?path=/Football/Paris-sg/',
+  'https://madeinparisiens.ouest-france.fr/flux/rss_news.php',
+ 
 ];
 
 // Endpoint pour récupérer les actualités
